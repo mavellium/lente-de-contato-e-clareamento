@@ -2,33 +2,31 @@
 
 const benefits = [
   {
-    
-    title: "Dentes com Formatos Irregulares",
+    title: "Dentes Amarelados?",
     description:
-      "Ideal se você tem dentes muito pequenos, pontas desgastadas ou formatos que não harmonizam com seu rosto.",
+      "O Clareamento devolve o brilho e remove manchas de café/alimentos sem danificar o esmalte.",
   },
   {
-    title: "Espaços Indesejados (Diastemas)",
+    title: "Formato ou Tamanho Irregular?",
     description:
-      "Corrigimos o afastamento entre os dentes sem necessidade de aparelho, fechando o sorriso de forma natural.",
+      "As Lentes de Contato corrigem desgastes, dentes pequenos ou formatos indesejados.",
   },
   {
-   
-    title: "Cor Insatisfatória Permanente",
+    title: "Espaços (Diastemas)?",
     description:
-      "Para dentes com manchas profundas ou escuros que não respondem mais ao clareamento convencional.",
+      "Fechamos espaços entre os dentes para um sorriso alinhado e harmônico.",
   },
 ];
 
-const Benefits = () => {
+const WhiteningBenefits = () => {
   return (
-    <section className="py-16 sm:py-20 bg-[#000919]">
+    <section className="py-16 sm:py-20 bg-transparent">
       <div className="mx-auto max-w-[1400px] px-4">
 
         {/* TÍTULO */}
         <div className="px-2 sm:px-10 mb-10 sm:mb-16 w-full">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#B9C2D8] leading-tight">
-            Para quem é a Lente de Contato
+            Para quem é o Clareamento
           </h1>
         </div>
 
@@ -38,19 +36,15 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="group p-6 sm:p-8 bg-black font-medium rounded-3xl
+              className="group p-6 sm:p-8 bg-[#02348D] font-medium rounded-3xl
               shadow-[0_4px_20px_-4px_rgba(52,66,86,0.1)]
               hover:shadow-[0_8px_30px_-8px_rgba(52,66,86,0.15)]
               transition-all duration-300 hover:scale-[1.03]
               border border-[rgba(52,66,86,0.25)]"
             >
-          
-              
-            
               {/* TÍTULO DO CARD */}
               <h2 className="text-2xl sm:text-3xl text-[#B9C2D8] mb-3 leading-tight">
                 {benefit.title}
-            
               </h2>
 
               {/* DESCRIÇÃO */}
@@ -66,4 +60,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default WhiteningBenefits;
