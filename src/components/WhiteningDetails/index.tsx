@@ -358,7 +358,7 @@ Treinamos sua equipe para operar os novos processos com segurança e foco em res
                     <div className="absolute inset-0 w-full h-full">
                         {isMounted ? (
                             <Image
-                                src={activeFeature >= 0 ? features[activeFeature].image : "/details-bg.png"}
+                                src={activeFeature >= 0 ? features[activeFeature].image : "/whitening-details.avif"}
                                 alt="Feature background"
                                 fill
                                 className="object-cover object-center"

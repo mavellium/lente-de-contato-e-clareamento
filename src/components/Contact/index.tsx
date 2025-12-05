@@ -53,7 +53,7 @@ const Contact = () => {
             <Button
               onClick={() =>
                 handleWhatsAppClick(
-                  "Olá! Gostaria de agendar uma avaliação e saber mais sobre os tratamentos de implante dentário."
+                  "Olá! Gostaria de agendar uma avaliação e saber mais sobre Clareamento e Lente de Contato Dental"
                 )
               }
               variant="outline"
@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
 
             <Button
-              onClick={() => window.open('https://www.google.com/search?sca_esv=deb0b5a04aa924a5&rlz=1C1GCEA_enBR1173BR1173&sxsrf=AE3TifPcJWNyJUHO8gA1RKvNzURBsRUovQ:1760473851389&q=instituto+do+sorriso&source=lnms&fbs=AIIjpHydJdUtNKrM02hj0s4nbm4yAFb4PvhjIUcDtaFHkK_tyhpYuVI58uj-Rm0tXaavH3bOEpagtPXP7kZ9WllyLbvwEpasUGqdoc2sFMYcj2TWPaI-TopXt2y99Yvr6lj8nKJA-eazNxlNK7jJM8UjTPMJ9Ft4bn9nryfbxwt2jV-4vBsi3nGoE8uXxh8rv0EEm9B6Faj1H2qNEZNZsS2lDA-lPk4Z-eXp01DjKxUZ2u6Djy6gGug&sa=X&ved=2ahUKEwibpbGUxKSQAxWPq5UCHc3dBgQQ0pQJegQIDhAB&biw=1745&bih=866&dpr=1.1&lqi=ChRpbnN0aXR1dG8gZG8gc29ycmlzb0iyuPCSu7yAgAhaIhAAEAEQAhgAGAEYAiIUaW5zdGl0dXRvIGRvIHNvcnJpc2-SAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4d1VHUnRiRVJZTVhCMlRWZFNUVlZWZUU5UFZGcERVbTFuZDFwSFl4QUKqAXYKDS9nLzExdzIxY3NxYjUKDS9nLzExeGd0NXM3MWwQASoYIhRpbnN0aXR1dG8gZG8gc29ycmlzbygMMiAQASIcQvXv8u-K2TARqivDpC7wMfYPHfWAylKJoPFRWjIYEAIiFGluc3RpdHV0byBkbyBzb3JyaXNv-gEECAAQQQ#rlimm=4856183146057208336', '_blank')}
+              onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=R.+Coronel+Joaquim+Piza+664,+Garça+SP', '_blank')}
               variant="outline"
               className="w-full border-[rgb(0,119,255)] text-[rgb(0,119,255)] bg-[#00102C] hover:bg-[rgb(0,119,255)] hover:text-white h-10"
             >
@@ -142,7 +142,7 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
-              onClick={() => handleWhatsAppClick("Olá! Gostaria de mais informações sobre implantes dentários e agendar minha avaliação.")}
+              onClick={() => handleWhatsAppClick("Olá! Gostaria de agendar uma avaliação e saber mais sobre Clareamento e Lente de Contato Dental")}
               size="lg"
               className="font-medium h-12 px-8"
             >

@@ -1,7 +1,7 @@
 export default function ButtonWhatsapp() {
     return (
         <a
-            href="https://api.whatsapp.com/send?phone=551496562383&text=Ol%C3%A1!%20%F0%9F%91%8B%20Estou%20interessado(a)%20em%20conhecer%20melhor%20os%20tratamentos%20de%20implante%20dent%C3%A1rio%20e%20pr%C3%B3tese%20protocolo%20fixo.%20Poderiam%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20como%20funcionam%2C%20valores%20e%20op%C3%A7%C3%B5es%20dispon%C3%ADveis%3F"
+            href="https://api.whatsapp.com/send?phone=551496562383&text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20e%20saber%20mais%20sobre%20Clareamento%20e%20Lente%20de%20Contato%20Dental"
             target="_blank"
             aria-label="Conversar via WhatsApp com a empresa TegPro"
             style={{ background: "var(--gradient-whatsapp)" }}

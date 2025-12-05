@@ -74,7 +74,7 @@ const Hero = () => {
                 size="lg"
                 onClick={() =>
                   handleWhatsAppClick(
-                    "Olá! Gostaria de agendar uma avaliação e saber mais sobre os tratamentos de implante dentário."
+                    "Olá! Gostaria de agendar uma avaliação e saber mais sobre Clareamento e Lente de Contato Dental"
                   )
                 }
                 className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 rounded-xl"

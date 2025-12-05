@@ -25,7 +25,7 @@ export function Types() {
   const cards = [
     {
       id: 1,
-      image: "/lente-dental-bg.png",
+      image: "/card-1.avif",
       link: "/Servicos/Institucional",
       title: "Desenvolvemos estratégias para fortalecer sua presença digital, gerar confiança e posicionar você como referência na sua área.",
       description:
@@ -33,7 +33,7 @@ export function Types() {
     },
     {
       id: 2,
-      image: "/lente-dental-bg.png",
+      image: "/card-2.avif",
       link: "/Servicos/LandingPage",
       title: "Desenvolvemos estratégias para fortalecer sua presença digital, gerar confiança e posicionar você como referência na sua área.",
       description:
@@ -41,7 +41,7 @@ export function Types() {
     },
     {
       id: 3,
-      image: "/lente-dental-bg.png",
+      image: "/card-3.avif",
       link: "/Servicos/Ecommerce",
       title: "Desenvolvemos estratégias para fortalecer sua presença digital, gerar confiança e posicionar você como referência na sua área.",
       description:
@@ -49,7 +49,7 @@ export function Types() {
     },
     {
       id: 4,
-      image: "/lente-dental-bg.png",
+      image: "/card-4.avif",
       link: "/Servicos/Aplicativo",
       title: "Desenvolvemos estratégias para fortalecer sua presença digital, gerar confiança e posicionar você como referência na sua área.",
       description:

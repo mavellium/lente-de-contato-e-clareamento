@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="space-y-6 md:col-span-1">
             <h4 className="text-xl font-semibold" style={{ color: "#0077FF" }}>Nossos Serviços</h4>
             <ul className="space-y-2">
-              {["Implantes Dentários", "Prótese-Protocolo"].map((service) => (
+              {["Lentes de Contato Dental", "Clareamento"].map((service) => (
                 <li
                   key={service}
                   className="cursor-pointer transition-colors"
